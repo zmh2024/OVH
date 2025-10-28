@@ -1,5 +1,5 @@
 # OVH抢购面板
-感谢群友提供的源代码https://github.com/coolci/OVH/
+感谢群友提供的源代码：https://github.com/coolci/OVH/
 
 已构建好的镜像（支持arm/amd）：docker pull zmh2024/ovh:1.0
 
