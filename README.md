@@ -91,7 +91,7 @@ docker build -t ovh .
 ```
 services:
   ovh:
-    build: .
+    image: ovh
     container_name: ovh
     ports:
       - "3000:8080"  # 前端端口
