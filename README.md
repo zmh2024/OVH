@@ -3,8 +3,7 @@
 
 已构建好的镜像（支持arm/amd）：docker pull zmh2024/ovh:1.0
 
-内存小于1G的VPS不要运行
-
+内存小于1G的VPS在未开swap的情况下不要运行
 # 手动构建方法如下
 ### 1. 创建dockerflie
 ```
