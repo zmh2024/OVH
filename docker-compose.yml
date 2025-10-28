@@ -1,0 +1,14 @@
+services:
+  ovh:
+    build: .
+    container_name: ovh
+    ports:
+      - "3000:8080"  # 前端端口
+    volumes:
+      # 映射配置文件到宿主机
+      - ./config/constants.ts:/app/src/config/constants.ts
+      - ./config/api_key_config.py:/app/backend/api_key_config.py
+    restart: unless-stopped
+    # 开发模式：保持 npm run dev 的热重载功能
+    environment:
+      - NODE_ENV=development
