@@ -1,6 +1,7 @@
 # OVH抢购面板
 感谢群友提供的源代码https://github.com/coolci/OVH/
-本项目提供docker镜像的构建方法
+已构建好的镜像（支持arm/amd）：docker pull zmh2024/ovh:1.0
+# 手动构建方法如下
 ### 1. 创建dockerflie
 ```
 FROM node:20-bullseye
